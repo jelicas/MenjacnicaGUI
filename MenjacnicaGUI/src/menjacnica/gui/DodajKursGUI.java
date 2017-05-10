@@ -187,7 +187,7 @@ public class DodajKursGUI extends JFrame {
 				public void actionPerformed(ActionEvent arg0) {
 					String text = "";
 					try {
-						text = "Sifra: " + txtSifra.getText() + " Naziv: " + txtNaziv.getText() + " Prodajni kurs: "
+						text += "Sifra: " + txtSifra.getText() + " Naziv: " + txtNaziv.getText() + " Prodajni kurs: "
 								+ txtProdajniKurs.getText() + " Kupovni kurs: " + txtKupovniKurs.getText()
 								+ " Srednji kurs: " + txtSrednjiKurs.getText() + " Naziv: " + txtNaziv.getText() + "\n";
 						MenjacnicaGUI.dodajPodatkeOKursu(text);
