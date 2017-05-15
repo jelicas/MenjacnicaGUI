@@ -41,6 +41,7 @@ public class DodajKursGUI extends JFrame {
 				try {
 					DodajKursGUI frame = new DodajKursGUI();
 					frame.setVisible(true);
+					frame.setLocationRelativeTo(null);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

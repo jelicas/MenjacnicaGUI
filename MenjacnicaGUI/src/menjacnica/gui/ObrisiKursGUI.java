@@ -43,6 +43,7 @@ public class ObrisiKursGUI extends JFrame {
 				try {
 					ObrisiKursGUI frame = new ObrisiKursGUI();
 					frame.setVisible(true);
+					frame.setLocationRelativeTo(null);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

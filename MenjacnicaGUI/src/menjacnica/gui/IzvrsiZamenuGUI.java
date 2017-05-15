@@ -48,6 +48,7 @@ public class IzvrsiZamenuGUI extends JFrame {
 				try {
 					IzvrsiZamenuGUI frame = new IzvrsiZamenuGUI();
 					frame.setVisible(true);
+					frame.setLocationRelativeTo(null);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
